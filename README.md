@@ -5,6 +5,7 @@ This repository contains public population and "helper" data sets frequently use
 * CCDPH Demographic Populations: 2010 Census populations for various subgroups within the CCDPH jurisdiction. Race/ethnicity and sex data are based on census tracts within CCDPH jurisdiction and district data are based on populations of the given municipalities within Cook County.
 * Census Tracts CCDPH Jurisdiction: 471 Census tracts primarily within the jurisdiction of CCDPH. Can be used to subset other Census data to estimate data for CCDPH jurisdiction.
 * Districts: CCDPH municipalities and their corresponding public health district (North, West, Southwest, South).
+* ESSENCE Cook Race and Ethnicity Populations: 2010 Census populations for the zipcodes that compose Cook_IL (Suburban Cook County) in ESSENCE. Includes overall population and populations by race/ethnicity.
 * Healthcare Facility Addresses: Addresses of healthcare facilities in Suburban Cook County and the surrounding areas. Includes acute care hospitals (ACH), skilled nursing facilities (SNF), and nursing homes (NH). This is not an extensive list, but takes information from many data sources (NSSP master facility list, IDPH nursing home finder, internal list of SNFs).
 * Municipality Populations: 2010 Census populations for municipalities in Suburban Cook County. Populations only include people who live in Cook County for municipalities that cross county lines.
 * State Populations: 2010 Census populations by U.S. state. Includes DC and Puerto Rico.
