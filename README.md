@@ -1,6 +1,7 @@
 # CCDPH Data Sets
 This repository contains public population and "helper" data sets frequently used by the CCDPH CD data team. Data sets are stored in this repository to facilitate both sharing among team members and remote work during the COVID-19 pandemic. Descriptions of the files are included here.
 
+* Age Decade Populations: 2010 Census populations stratified by age (<20, 30s, 40s, 50s, 60s, 70s, >80) for census tracts in the CCDPH jurisdiction.
 * CCDPH Demographic Populations: 2010 Census populations for various subgroups within the CCDPH jurisdiction. Race/ethnicity and sex data are based on census tracts within CCDPH jurisdiction and district data are based on populations of the given municipalities within Cook County.
 * Census Tracts CCDPH Jurisdiction: 471 Census tracts primarily within the jurisdiction of CCDPH. Can be used to subset other Census data to estimate data for CCDPH jurisdiction.
 * Districts: CCDPH municipalities and their corresponding public health district (North, West, Southwest, South).
