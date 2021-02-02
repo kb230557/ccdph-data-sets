@@ -1,127 +1,125 @@
 Municipality,Average CCVI
-Alsip ,0.763138883
-Arlington Heights ,0.419967696
-Barrington Hills ,0.430998171
-Barrington ,0.454074383
-Bartlett ,0.463272819
-Bedford Park ,0.523161623
-Bellwood ,0.802143331
-Berkeley ,0.869395333
-Berwyn,0.803029805
-Blue Island,0.916568269
-Bridgeview ,0.787280696
-Broadview ,0.838474551
-Brookfield ,0.465282165
-Buffalo Grove ,0.414601701
-Burbank,0.78972548
-Burnham ,0.929986698
-Burr Ridge ,0.401602303
-Calumet City,0.884142894
-Calumet Park ,0.856692799
-Chicago Heights,0.846026173
-Chicago Ridge ,0.671780128
-Cicero,0.889276083
-Country Club Hills,0.698812124
-Countryside,0.703229581
-Crestwood ,0.606561974
-Des Plaines,0.639849922
-Dixmoor ,0.964210497
-Dolton ,0.865452465
-East Hazel Crest ,0.794864156
-Elgin,0.69581879
-Elk Grove Village ,0.453401352
-Elmwood Park ,0.667074303
-Evanston,0.606373699
-Evergreen Park ,0.484950861
-Flossmoor ,0.568145455
-Ford Heights ,0.919034768
-Forest Park ,0.566958736
-Forest View ,0.748281882
-Franklin Park ,0.66944847
-Glencoe ,0.217693366
-Glenview ,0.485880572
-Glenwood ,0.846407409
-Golf ,0.254336862
-Hanover Park ,0.678424411
-Harvey,0.946427744
-Harwood Heights ,0.734406212
-Hazel Crest ,0.805827336
-Hickory Hills,0.736540067
-Hillside ,0.661391667
-Hinsdale ,0.348269511
-Hodgkins ,0.910145209
-Hoffman Estates ,0.541664952
-Hometown,0.47515657
-Homewood ,0.692349541
-Indian Head Park ,0.394948333
-Inverness ,0.302754642
-Justice ,0.822273689
-Kenilworth ,0.185682156
-La Grange Park ,0.53155174
-La Grange ,0.382346982
-Lansing ,0.742509277
-Lemont ,0.337889307
-Lincolnwood ,0.686459863
-Lynwood ,0.677314556
-Lyons ,0.729589323
-Markham,0.913461794
-Matteson ,0.464092524
-Maywood ,0.886791381
-McCook ,0.910145209
-Melrose Park ,0.882733838
-Merrionette Park ,0.884858394
-Midlothian ,0.587549885
-Morton Grove ,0.58403187
-Mount Prospect ,0.539771448
-Niles ,0.67173429
-Norridge ,0.737737903
-North Riverside ,0.767090945
-Northbrook ,0.392707742
-Northfield ,0.396602479
-Northlake,0.856923058
-Oak Forest,0.51722111
-Oak Lawn ,0.701716443
-Oak Park ,0.458181996
-Olympia Fields ,0.631989829
-Orland Hills ,0.605029037
-Orland Park ,0.390755781
-Palatine ,0.501963219
-Palos Heights,0.379210101
-Palos Hills,0.704908026
-Palos Park ,0.421141242
-Park Forest ,0.709054237
-Park Ridge,0.374513762
-Phoenix ,0.972343845
-Posen ,0.939239843
-Prospect Heights,0.640633589
-Richton Park ,0.677918312
-River Forest ,0.406837587
-River Grove ,0.675422822
-Riverdale ,0.896786858
-Riverside ,0.439148992
-Robbins ,0.96823298
-Rolling Meadows,0.564849771
-Roselle ,0.400489019
-Rosemont ,0.570088737
-Sauk Village ,0.854109199
-Schaumburg ,0.471971447
-Schiller Park ,0.650216508
-Skokie ,0.698834894
-South Barrington ,0.425362179
-South Chicago Heights ,0.9786274
-South Holland ,0.777932445
-Steger ,0.651523136
-Stickney ,0.812004656
-Stone Park ,0.944245745
-Streamwood ,0.579590144
-Summit ,0.950425356
-Thornton ,0.754807959
-Tinley Park ,0.411125042
-University Park ,0.908191542
-Westchester ,0.441346558
-Western Springs ,0.16072099
-Wheeling ,0.691716272
-Willow Springs ,0.502396131
-Wilmette ,0.358979892
-Winnetka ,0.206822209
-Worth ,0.713396288
+Alsip,0.541063438
+Arlington Heights,0.357060722
+Barrington Hills,0.250938613
+Barrington,0.217596505
+Bartlett,0.408406644
+Bedford Park,0.421537524
+Bellwood,0.734672559
+Berkeley,0.645890193
+Berwyn,0.708453748
+Blue Island,0.794197919
+Bridgeview,0.589947493
+Broadview,0.414768825
+Brookfield,0.355010321
+Buffalo Grove,0.258217932
+Burbank,0.659504117
+Burnham,0.883861404
+Burr Ridge,0.185429684
+Calumet City,0.751594949
+Calumet Park,0.742633103
+Chicago Heights,0.688571359
+Chicago Ridge,0.705358751
+Cicero,0.858258233
+Country Club Hills,0.534935786
+Countryside,0.426477882
+Crestwood,0.355975488
+Deer Park,0.290201022
+Deerfield,0.353929704
+Des Plaines,0.523711919
+Dixmoor,0.833681994
+Dolton,0.714261717
+East Hazel Crest,0.504260124
+Elgin,0.488461876
+Elk Grove Village,0.323997235
+Elmwood Park,0.599365484
+Evergreen Park,0.424554246
+Flossmoor,0.448819634
+Ford Heights,0.580263504
+Forest Park,0.469781983
+Franklin Park,0.604808943
+Glencoe,0.031067733
+Glenview,0.327010448
+Glenwood,0.562511834
+Golf,0.042490406
+Hanover Park,0.498801624
+Harvey,0.820579131
+Harwood Heights,0.60859506
+Hazel Crest,0.597425915
+Hickory Hills,0.578864244
+Hillside,0.496950721
+Hinsdale,0.189959962
+Hodgkins,0.665590668
+Hoffman Estates,0.350013161
+Hometown,0.353347834
+Homewood,0.459845982
+Indian Head Park,0.185429684
+Inverness,0.143135544
+Justice,0.574724651
+Kenilworth,0.054245577
+La Grange Park,0.41930702
+La Grange,0.39925673
+Lansing,0.567881437
+Lemont,0.215901692
+Lincolnwood,0.48159488
+Lynwood,0.512290861
+Lyons,0.449297599
+Markham,0.736157715
+Matteson,0.410945104
+Maywood,0.787855068
+McCook,0.665590668
+Melrose Park,0.772235274
+Merrionette Park,0.677020268
+Midlothian,0.389437664
+Morton Grove,0.420646246
+Mount Prospect,0.406428804
+Niles,0.581996647
+Norridge,0.600459262
+North Riverside,0.534468905
+Northbrook,0.273987614
+Northfield,0.337678891
+Northlake,0.77567781
+Oak Brook,0.449287209
+Oak Forest,0.347561454
+Oak Lawn,0.581222032
+Olympia Fields,0.531298634
+Orland Hills,0.30355172
+Orland Park,0.274096542
+Palatine,0.335531511
+Palos Heights,0.337833264
+Palos Hills,0.534736288
+Palos Park,0.348973414
+Park Forest,0.397121126
+Park Ridge,0.359354031
+Phoenix,0.171056095
+Posen,0.805572103
+Prospect Heights,0.407284465
+Richton Park,0.499572833
+River Forest,0.219863953
+River Grove,0.597594935
+Riverdale,0.769925604
+Riverside,0.416005135
+Robbins,0.718383878
+Rolling Meadows,0.361103337
+Roselle,0.179527854
+Rosemont,0.581080894
+Sauk Village,0.578659897
+Schaumburg,0.34143121
+Schiller Park,0.491742979
+South Barrington,0.127014034
+South Chicago Heights,0.798437262
+South Holland,0.636186808
+Steger,0.578171541
+Stone Park,0.859201175
+Streamwood,0.47655452
+Summit,0.884505618
+Thornton,0.406104099
+Tinley Park,0.308942797
+University Park,0.608692038
+Westchester,0.350654604
+Western Springs,0.291921697
+Wheeling,0.522101636
+Willow Springs,0.465629459
+Wilmette,0.167866582
+Winnetka,0.044199997
+Worth,0.541619909
