@@ -64,7 +64,11 @@ cook_county_pop = get_decennial(geography = "county",
 cook_census_tracts %>% filter(jurisdiction == "CHI") %>% pull(population) %>% sum()
 place_pops %>% filter(NAME == "Chicago city, Illinois") %>% pull(value)
 #plot census tracts to see if organized correctly!!! -- check 9900.00
+
+write_csv(cook_census_tracts, "cook-county-census-tracts.csv")
 ```
+
+
 ```{r detailed_data}
 
 raceage = read_csv("raw-data/race ethnicity age census tract data 2010 SF2/DEC_10_SF2_PCT3_with_ann.csv", skip = 1) %>%
@@ -118,6 +122,8 @@ raceage_tidy_census_tract %>%
 #number of census tracts with data by each race/eth group:
 table(raceage_tidy_census_tract$race_eth_group) %>% sort() %>% divide_by(209)
 
+
+write_csv(raceage_tidy_census_tract, "cook-county-census-tracts-detailed-race-ethnicity-age-populations.csv")
 ```
 
 ```{r ccdph_function}
