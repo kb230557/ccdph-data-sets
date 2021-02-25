@@ -113,6 +113,7 @@ write_csv(healthcare_facilities, "../Healthcare Facility Addresses.csv", na = ""
 ```{r total-beds}
 
 total_beds = healthcare_facilities %>%
+  filter(district != "OOJ") %>%
   arrange(desc(beds)) %>%
   group_by(unique_id) %>%
   slice(1) %>%
