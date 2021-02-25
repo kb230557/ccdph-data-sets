@@ -4,12 +4,12 @@ library(magrittr)
 library(janitor)
 
 ccdph_census_population = function(variable){
-  all_cook = cook_county_pop = get_decennial(geography = "county", 
+  all_cook  = get_decennial(geography = "county", 
                                              state = "IL", county = "Cook",
                                              year = 2010, variables = variable) %>%
     pull(value)
   
-  ooj = cook_county_pop = get_decennial(geography = "place", 
+  ooj  = get_decennial(geography = "place", 
                                         state = "IL", 
                                         year = 2010, variables = variable) %>%
     filter(NAME %in% c("Chicago city, Illinois",
@@ -20,7 +20,7 @@ ccdph_census_population = function(variable){
     pull(value) %>%
     sum()
   
-  ooj2 = cook_county_pop = get_decennial(geography = "county subdivision", 
+  ooj2  = get_decennial(geography = "county subdivision", 
                                          state = "IL", county = "Cook",
                                          year = 2010, variables = variable) %>%
     filter(NAME == "Stickney township, Cook County, Illinois") %>%
