@@ -110,3 +110,18 @@ write_csv(healthcare_facilities, "../Healthcare Facility Addresses.csv", na = ""
 
 ```
 
+```{r total-beds}
+
+total_beds = healthcare_facilities %>%
+  arrange(desc(beds)) %>%
+  group_by(unique_id) %>%
+  slice(1) %>%
+  ungroup() %>%
+  mutate(beds = ifelse(is.na(beds), skilled_beds, beds)) %>%
+  pull(beds) %>%
+  sum(na.rm = T)
+
+
+```
+
+
