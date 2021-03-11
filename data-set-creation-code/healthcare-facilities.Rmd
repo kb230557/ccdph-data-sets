@@ -125,7 +125,11 @@ total_beds = healthcare_facilities %>%
 
 muni_pops = read_csv("../Municipality Populations.csv")
 beds_by_city = healthcare_facilities %>% 
-  filter(type != "ACH") %>% 
+  filter(district != "OOJ", type != "ACH") %>%
+  arrange(desc(beds)) %>%
+  group_by(unique_id) %>%
+  slice(1) %>%
+  ungroup() %>%
   mutate(beds = ifelse(is.na(beds), skilled_beds, beds)) %>%
   group_by(city) %>% 
   summarise(n = n(),
