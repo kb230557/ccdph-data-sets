@@ -95,7 +95,8 @@ raceage_tidy_census_tract = raceage %>%
          ) %>%
   relocate(population, .after = last_col()) %>%
   left_join(cook_census_tracts %>% select(census_tract, fips, jurisdiction), by = "fips") %>%
-  relocate(c(census_tract, jurisdiction), .after = geography)
+  relocate(c(census_tract, jurisdiction), .after = geography) %>%
+  filter(jurisdiction %in% c("CCDPH", "SCC"))
 
 #example- number of 6-8 year olds in ccdph jurisdiction
 raceage_tidy_census_tract %>%

@@ -4,5 +4,4 @@
 .Ruserdata
 *.Rproj
 *.DS_Store
-*cook-county-census-tracts-detailed-race-ethnicity-age-populations.csv
 data-set-creation-code/raw-data/healthcare-facilities
