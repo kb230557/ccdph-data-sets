@@ -123,6 +123,21 @@ total_beds = healthcare_facilities %>%
   sum(na.rm = T)
 
 
+muni_pops = read_csv("../Municipality Populations.csv")
+beds_by_city = healthcare_facilities %>% 
+  filter(type != "ACH") %>% 
+  mutate(beds = ifelse(is.na(beds), skilled_beds, beds)) %>%
+  group_by(city) %>% 
+  summarise(n = n(),
+            beds = sum(beds, na.rm = T)
+            ) %>%
+  left_join(muni_pops, by = c("city" = "Municipality")) %>%
+  mutate(facilities_per_10000_pop = round(n/Population2010*10000,2),
+         beds_percent_of_pop = round(beds/Population2010*100, 2)
+         ) %>%
+  arrange(desc(beds_percent_of_pop))
+
+
 ```
 
 
